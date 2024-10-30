@@ -29,7 +29,17 @@
         </div>
     </main>
 
- 
+    <div class="divForm">
+        <form method="post" id="formulario">
+            <label for="nombre">Nombre:</label>
+            <input type="text" name="nombre" id="nombre" required>
+            <label for="comentario">Edad:</label>
+            <input type="number" name="edad" id="edad" required>
+            <button type="submit">Mostrar datos</button>
+        </form>
+        <div id="dataForm"></div>
+    </div>
+
     <script src="./js/main.js"></script>
 </body>
 
